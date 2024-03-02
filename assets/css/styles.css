@@ -1,0 +1,30 @@
+sup {
+    vertical-align: super;
+    font-size: smaller;
+  }
+
+h1,
+h2,
+p,
+input {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4vh;
+  margin-bottom: 2vh;
+}
+
+body {
+  width: 70vw;
+  padding-left: 15vw;
+  padding-top: 15vh;
+}
+
+input:first-of-type {
+  width: 80%;
+}
+
+input:nth-of-type(2) {
+  width: 19%;
+}
